@@ -1,0 +1,218 @@
+.aboutContentContainerAboutMe h5{
+	font-family: 'Lora';
+	padding: 50px 40px 15px;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 2px;
+	
+}
+.aboutContentContainerAboutMe p{
+	padding: 0 40px 0;
+	text-align: center;
+	color: #A8A8A8;
+	line-height: 25px;
+	font-size: 12px;
+}
+.aboutContentSkillsDesc{
+	text-align: center;
+	font-size: 16px;
+	padding: 100px 0 35px;
+	letter-spacing: 2px;
+	font-family: 'Lora';
+}
+.aboutContentContainerSkills{
+	width: 260px;
+	margin: 0 auto 200px;
+}
+.aboutContentContainerSkillsPercent{
+	height: 2px;
+ 	width: 100%;
+	background: black;
+	position: relative;
+}
+.aboutContentContainerProgressSkills{
+	margin-bottom: 16px
+}
+.aboutContentContainerSkillsDescription h5{
+	color: dimgray;
+	font-weight: normal;
+	display: inline;
+	padding: 3px
+}
+.aboutContentContainerSkillsDescription{
+	display: flex;
+	justify-content: space-between;
+}
+.aboutContentContainerExperienceContent{
+	padding: 70px 50px 0;
+	text-align: center;
+}
+.aboutContentContainerExperienceContent h5{
+	padding-bottom: 15px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-family: 'Lora'
+}
+.aboutContentContainerExperienceContent p{
+	color: #A8A8A8;
+	line-height: 25px;
+	font-size: 12px;
+}
+
+
+
+.aboutContentContainerSkills .aboutContentContainerProgressSkills:nth-child(n) .aboutContentContainerSkillsPercent:after{
+	content: '';
+	position: absolute;
+	right: 0;
+	top:0;
+	height: 2px;
+	width: 50%;
+	background: silver;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(1) .aboutContentContainerProgressSkills:nth-child(1) .aboutContentContainerSkillsPercent:after{
+	width: 20%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(1) .aboutContentContainerProgressSkills:nth-child(2) .aboutContentContainerSkillsPercent:after{
+	width: 40%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(1) .aboutContentContainerProgressSkills:nth-child(3) .aboutContentContainerSkillsPercent:after{
+	width: 25%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(2) .aboutContentContainerProgressSkills:nth-child(1) .aboutContentContainerSkillsPercent:after{
+	width: 20%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(2) .aboutContentContainerProgressSkills:nth-child(2) .aboutContentContainerSkillsPercent:after{
+	width: 30%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(2) .aboutContentContainerProgressSkills:nth-child(3) .aboutContentContainerSkillsPercent:after{
+	width: 45%;
+}
+
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(1) .aboutContentContainerProgressSkills:nth-child(1) .aboutContentContainerSkillsDescription{
+	width: 80%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(1) .aboutContentContainerProgressSkills:nth-child(2) .aboutContentContainerSkillsDescription{
+	width: 60%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(1) .aboutContentContainerProgressSkills:nth-child(3) .aboutContentContainerSkillsDescription{
+	width: 75%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(2) .aboutContentContainerProgressSkills:nth-child(1) .aboutContentContainerSkillsDescription{
+	width: 80%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(2) .aboutContentContainerProgressSkills:nth-child(2) .aboutContentContainerSkillsDescription{
+	width: 70%;
+}
+.aboutContentContainerSkills .aboutContentContainerProgressContainer:nth-child(2) .aboutContentContainerProgressSkills:nth-child(3) .aboutContentContainerSkillsDescription{
+	width: 55%;
+}
+
+
+
+
+
+
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+
+
+@media (min-width: 541px){
+	.aboutContentContainerSkills{
+		width: 450px;
+		display: flex;
+		justify-content: space-between;
+		padding: 0;;
+	}
+	.aboutContentContainerProgressContainer{
+		width: 45%;
+		display: block;
+		float: left;
+	}
+	.aboutContentContainerAboutMe p{
+		padding: 0 60px 0;
+	}
+
+	.aboutContentContainerExperienceContent{
+		width: 50%;
+		float: left;
+		padding: 40px 60px;
+		
+	}
+	.aboutContentContainerExperienceContent:nth-child(1){
+		padding-top: 100px;
+	}
+	.aboutContentContainerExperienceContent:nth-child(2){
+		
+		padding-top: 100px;
+	}
+	.aboutContentSkillsDesc{
+		clear: both;
+	}
+}
+
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+
+@media (min-width: 769px){
+	.aboutContent{
+		width: 75%;
+		float: right;
+		padding-left: 30px;
+	}
+	.aboutContentSkillsDesc{
+		padding: 100px 0 50px 0;
+		text-align: left;
+	}
+	.aboutContentContainerAboutMe h5{
+		padding: 200px 0 15px 0;
+		text-align: left;
+	}
+	.aboutContentContainerAboutMe p{
+		width: 60%;
+		text-align: left;
+		padding: 0;
+		
+}
+	.aboutContentContainerSkills{
+		width: 100%;
+	}
+	.aboutContentContainerExperienceContent{
+		padding-left: 0;
+		text-align: left;
+	}
+	.aboutContentContainerProgressContainer{
+		width: 50%;
+		padding-right: 120px;
+	}
+}
+
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+
+@media (min-width: 1367px){
+	.aboutContentContainerExperienceContent{
+		padding-right: 120px;
+	}
+	.aboutContentSkillsDesc{
+		
+	}
+	.aboutContentContainerExperienceContent h5{
+		
+	}
+	.aboutContentContainerAboutMe h5{
+		
+		
+	}
+}
+
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
+/*===================================================================================================================*/
