@@ -15,12 +15,4 @@ $(document).ready(function(){
 		});
 	
 		
-		$('.animated').addClass('hide').each(function(){
-			$(this).viewportChecker({
-				classToAdd: 'show opacityshow',
-				classToRemove: 'hide',
-				
-			});
-		});
-		
 	});
