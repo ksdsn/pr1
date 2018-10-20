@@ -21,11 +21,8 @@ body {
 	text-decoration: none;
 	color: #212121;
 	font-weight: 800;
-	
-}
-.logo{
-	text-decoration: none;
 	border: none;
+	
 }
 .navButton {
 	width: 20px;
@@ -314,6 +311,7 @@ body {
 		float: right;
 
 	}
+	
 }
 
 

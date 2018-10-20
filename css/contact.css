@@ -1,17 +1,14 @@
-.contactContent{
-}
 .contactContentDesc{
 	font-size: 20px;
 	color:#212121;
-	width: 260px;
-	margin: 0 auto;
-	display: block;
 	padding: 40px 0;
+	text-align: center;
 }
 form{
 	width: 260px;
 	margin: 0 auto;
 	font-family: 'Lora';
+	padding-bottom: 100px;
 	
 }
 input{
@@ -91,9 +88,6 @@ textarea:-ms-input-placeholder{
 	form{
 		width: 450px;
 	}
-	.contactContentDesc{
-		width: 450px;
-	}
 }
 @media (min-width: 769px){
 	.contactContent{
@@ -108,7 +102,7 @@ textarea:-ms-input-placeholder{
 		margin-top: 35px;
 	}
 	.contactContentDesc{
-		padding-top: 60px;
+		padding: 60px 0;
 		font-size: 24px;
 		width: auto;
 		text-align: center;
